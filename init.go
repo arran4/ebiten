@@ -1,4 +1,4 @@
-//go:build !test
+// +build !testing
 
 // Copyright 2020 The Ebiten Authors
 //
