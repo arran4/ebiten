@@ -1,4 +1,4 @@
-// +build !testing
+//+build !testing
 
 // Copyright 2020 The Ebiten Authors
 //
