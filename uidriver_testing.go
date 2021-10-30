@@ -12,16 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:build !android && !js && !ios && !testing
-// +build !android,!js,!ios,!testing
+//go:build testing
+// +build testing
 
 package ebiten
 
-import (
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
-	"github.com/hajimehoshi/ebiten/v2/internal/uidriver/glfw"
-)
-
 func uiDriver() driver.UI {
-	return glfw.Get()
+	return nil
 }
